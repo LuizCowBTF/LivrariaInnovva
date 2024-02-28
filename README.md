@@ -273,3 +273,12 @@ A API expõe os seguintes *endpoints* a partir da *base URL* `localhost:3000`:
 * `PUT /usuarios/:id`
 * `DELETE /usuarios/:id`
 
+## Requisitos do projeto
+
+### - O login e senha devem possuir um email e senha para autenticação
+
+### - O login deve validar o usuário esta cadastrado
+
+### - O login deve conferir email e senhas incorretos
+
+### - O login deve validar o retorno de um accessToken
