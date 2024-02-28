@@ -44,7 +44,7 @@ describe('POST em /editoras', () => {
     await request(app)
       .post('/editoras')
       .send({})
-      .expect(400);
+      .expect(401);
   });
 });
 

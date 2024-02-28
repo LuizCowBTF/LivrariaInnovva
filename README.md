@@ -275,6 +275,16 @@ A API expõe os seguintes *endpoints* a partir da *base URL* `localhost:3000`:
 
 ## Requisitos do projeto
 
+### - O usuario deve possuir um nome, email e senha
+
+### - A senha do usuario precisa ser criptografada quando for salva no banco de dados
+
+### - Não pode ser cadastrado um usuario com email duplicado
+
+### - Ao cadastrar um usuario deve ser retornado uma mensagem informando que o usuario foi cadastrado
+
+### - Ao cadastrar um usuario validar retorno do usuario
+
 ### - O login e senha devem possuir um email e senha para autenticação
 
 ### - O login deve validar o usuário esta cadastrado
